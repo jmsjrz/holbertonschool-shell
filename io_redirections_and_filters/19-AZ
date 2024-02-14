@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -pi -e 's/A/Z/g' | perl -pi 's/c/e/g'
+tr 'Ac' 'Ze'
